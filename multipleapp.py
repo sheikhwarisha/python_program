@@ -1,7 +1,7 @@
 print("***Multiple App Player ***")
-select = eval(input("Select an App you want to work : \n1. Calculator \n2. Student Marksheet \n3. Clothing Store \n"))
+select = eval(input("Select an App you want to work : \n1. Calculator \n2. Student Marksheet \n3. Clothing Store \n :"))
 if select ==1:
-    method = input("What your wanto do ? : \n1. Addition \n2. Subtraction \n3. Division \n4. Mutiply \n")
+    method = input("What your wanto do ? : \n1. Addition \n2. Subtraction \n3. Division \n4. Mutiply \n:")
     num1 = eval(input("Enter number 1 to proceed:")) 
     num2 = eval(input("Enter number 2 to proceed :")) 
     if method == "1":
